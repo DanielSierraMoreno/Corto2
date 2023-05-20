@@ -1,0 +1,1591 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'es' Physical Memory: 16153 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/2003d/Downloads/Proyecto/Proyecto/Horror/Horror
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61966
+Successfully changed project path to: C:/Users/2003d/Downloads/Proyecto/Proyecto/Horror/Horror
+C:/Users/2003d/Downloads/Proyecto/Proyecto/Horror/Horror
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 105.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/2003d/Downloads/Proyecto/Proyecto/Horror/Horror/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 with Max-Q Design (ID=0x1f12)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007596 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (650ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006651 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.4 KB). Loaded Objects now: 3834.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 7.900900 ms (FindLiveObjects: 0.575600 ms CreateObjectMapping: 0.901100 ms MarkObjects: 6.250900 ms  DeleteObjects: 0.171100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 435.115941 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/New Animator Controller.controller
+  artifactKey: Guid(a0c03a10f7f414c4ca9a9bdc69be32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/New Animator Controller.controller using Guid(a0c03a10f7f414c4ca9a9bdc69be32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829eeaee7ec5527a414450b83f8035fd') in 0.044850 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006280 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1023ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3837.
+Memory consumption went from 120.2 MB to 120.1 MB.
+Total: 3.169700 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.214000 ms MarkObjects: 2.564900 ms  DeleteObjects: 0.091700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007800 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3840.
+Memory consumption went from 120.2 MB to 120.1 MB.
+Total: 3.083000 ms (FindLiveObjects: 0.291600 ms CreateObjectMapping: 0.195200 ms MarkObjects: 2.474200 ms  DeleteObjects: 0.120700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006642 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1226ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3843.
+Memory consumption went from 120.2 MB to 120.1 MB.
+Total: 4.478800 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.240400 ms MarkObjects: 3.762400 ms  DeleteObjects: 0.106100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006639 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1528ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1156ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (428ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3846.
+Memory consumption went from 120.2 MB to 120.1 MB.
+Total: 3.280900 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.171600 ms MarkObjects: 2.691900 ms  DeleteObjects: 0.144800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006435 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3849.
+Memory consumption went from 120.2 MB to 120.1 MB.
+Total: 4.059100 ms (FindLiveObjects: 0.348700 ms CreateObjectMapping: 0.257800 ms MarkObjects: 3.356300 ms  DeleteObjects: 0.095000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006221 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1033ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3852.
+Memory consumption went from 120.2 MB to 120.2 MB.
+Total: 2.908800 ms (FindLiveObjects: 0.270800 ms CreateObjectMapping: 0.188600 ms MarkObjects: 2.371000 ms  DeleteObjects: 0.077200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007324 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3855.
+Memory consumption went from 120.2 MB to 120.2 MB.
+Total: 3.001700 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.211500 ms MarkObjects: 2.411600 ms  DeleteObjects: 0.086400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008631 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3858.
+Memory consumption went from 120.2 MB to 120.2 MB.
+Total: 2.848500 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.187100 ms MarkObjects: 2.305800 ms  DeleteObjects: 0.077500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 736.659798 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/a.controller
+  artifactKey: Guid(d646ed0e2f082e648af42b537391ce8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/a.controller using Guid(d646ed0e2f082e648af42b537391ce8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812d1b708292281e5dc7e67b3a34d232') in 0.038058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.790437 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/a.anim
+  artifactKey: Guid(f44ae19622e67d747894b163f90eb34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/a.anim using Guid(f44ae19622e67d747894b163f90eb34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd88b70f2bddd022d4e5595ca85458d1') in 0.004303 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006625 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3861.
+Memory consumption went from 120.3 MB to 120.2 MB.
+Total: 3.210100 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.193000 ms MarkObjects: 2.659400 ms  DeleteObjects: 0.080600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008708 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3864.
+Memory consumption went from 120.3 MB to 120.2 MB.
+Total: 3.026600 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.197400 ms MarkObjects: 2.449700 ms  DeleteObjects: 0.081900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3867.
+Memory consumption went from 120.3 MB to 120.2 MB.
+Total: 3.072900 ms (FindLiveObjects: 0.317400 ms CreateObjectMapping: 0.254000 ms MarkObjects: 2.421600 ms  DeleteObjects: 0.078900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006257 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2003d\Downloads\Proyecto\Proyecto\Horror\Horror\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1041ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.1 KB). Loaded Objects now: 3870.
+Memory consumption went from 120.3 MB to 120.2 MB.
+Total: 2.946400 ms (FindLiveObjects: 0.312700 ms CreateObjectMapping: 0.188900 ms MarkObjects: 2.363700 ms  DeleteObjects: 0.080000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 318.003275 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Bowl_01.prefab
+  artifactKey: Guid(7ed93aefdcb3d4040959a9fa619282db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Bowl_01.prefab using Guid(7ed93aefdcb3d4040959a9fa619282db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f82d8924bae33a685652028d9a7d0d9') in 0.246440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cabinet_Wine_01.prefab
+  artifactKey: Guid(5a1b91768eb05ea498be61c4a557e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cabinet_Wine_01.prefab using Guid(5a1b91768eb05ea498be61c4a557e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c674bf5cb7cb63a3c33ea8a3225a1f9') in 0.100219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Camera_01.prefab
+  artifactKey: Guid(942d3c25931a1604a95a18078fc3433f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Camera_01.prefab using Guid(942d3c25931a1604a95a18078fc3433f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f95ec4889b1af8277c5f13a0dec24e') in 0.050278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Candle_Stand_01.prefab
+  artifactKey: Guid(530f205aaafe6524983ab0c3ffea2b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Candle_Stand_01.prefab using Guid(530f205aaafe6524983ab0c3ffea2b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16793c88df65f713bea4f4de5affd8b5') in 0.044330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Camera_02.prefab
+  artifactKey: Guid(c43449b649c737b4c9a286cd1c7a136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Camera_02.prefab using Guid(c43449b649c737b4c9a286cd1c7a136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e25b88d364135f7badf02eec0eeabfa') in 0.041576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cat_Stuffed_Badly_01.prefab
+  artifactKey: Guid(a5b5df5e65e76e24ea138ef93a23f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cat_Stuffed_Badly_01.prefab using Guid(a5b5df5e65e76e24ea138ef93a23f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22df957080fe49903e44e97bad4ea591') in 0.047819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Can_Stack_01.prefab
+  artifactKey: Guid(86fd322cefcae6a469fef3ba92f1ef9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Can_Stack_01.prefab using Guid(86fd322cefcae6a469fef3ba92f1ef9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6802dd43158f636f7fcf9c2aa0fc0c8') in 0.041635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Chair_01.prefab
+  artifactKey: Guid(fdb2cb2d45f7f8c40929de258b8857dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Chair_01.prefab using Guid(fdb2cb2d45f7f8c40929de258b8857dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d0d12331a623e34cddda81d465d2bb') in 0.043780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Chair_04.prefab
+  artifactKey: Guid(0758d4a5bed5d43498aab9e5f46eb9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Chair_04.prefab using Guid(0758d4a5bed5d43498aab9e5f46eb9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0540780c6d663f430a0760192ccafc54') in 0.041261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Ceramic_Vase_01.prefab
+  artifactKey: Guid(a493b770c1c733c4a9b6e0419e992fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Ceramic_Vase_01.prefab using Guid(a493b770c1c733c4a9b6e0419e992fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4066c68017eebf513a28b1e642035b2') in 0.044834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cabinet_01.prefab
+  artifactKey: Guid(690a7e841c0a1f04d8a801da4fd6c9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cabinet_01.prefab using Guid(690a7e841c0a1f04d8a801da4fd6c9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf08f0d840bf17f2429000dedbe42f16') in 0.040762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cat_Stuffed_01.prefab
+  artifactKey: Guid(c454915cc0f10e242b2d97370d98d997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cat_Stuffed_01.prefab using Guid(c454915cc0f10e242b2d97370d98d997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341fa7651284ea929febcb04f488e1f5') in 0.049230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Chair_02.prefab
+  artifactKey: Guid(b428848279877a646b142c042dce178b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Chair_02.prefab using Guid(b428848279877a646b142c042dce178b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36818a90a93a5f2206f8381a527ef887') in 0.041264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cabinet_02.prefab
+  artifactKey: Guid(04db379b168314746bec379b6e1698fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cabinet_02.prefab using Guid(04db379b168314746bec379b6e1698fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2154e98c5ba247ada0480d7e74cfe7b') in 0.134589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Box_Pile_01.prefab
+  artifactKey: Guid(b9dac3a34391433449a68ea033c988b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Box_Pile_01.prefab using Guid(b9dac3a34391433449a68ea033c988b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0395f7d073a1850d28797416ed436e01') in 0.046200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Candle_Stand_02.prefab
+  artifactKey: Guid(fb8dd6a1a74cb1d4d89a4a9849546b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Candle_Stand_02.prefab using Guid(fb8dd6a1a74cb1d4d89a4a9849546b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091f49316985d3dcd5832abf0d54c93a') in 0.039020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.083638 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Chest_01.prefab
+  artifactKey: Guid(39e23a24f7f546042adabc258ce927ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Chest_01.prefab using Guid(39e23a24f7f546042adabc258ce927ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b950f45cd921213cba0a946d19b3a0ec') in 0.047314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Coat_Stand_01_Insert_01.prefab
+  artifactKey: Guid(32a56b93379bec847a082aec5673442e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Coat_Stand_01_Insert_01.prefab using Guid(32a56b93379bec847a082aec5673442e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82525b8da65fe53500504c3b29858326') in 0.051400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Coat_Stand_01.prefab
+  artifactKey: Guid(5ac70aaeb616d2344a43671d263d3d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Coat_Stand_01.prefab using Guid(5ac70aaeb616d2344a43671d263d3d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b250e68cfbb170f76fde06cb61d71b2') in 0.044044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Clock_02.prefab
+  artifactKey: Guid(12b81d7c9dc00a6419f32106fb3b82ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Clock_02.prefab using Guid(12b81d7c9dc00a6419f32106fb3b82ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc81142a6f0ce1ddd6af81b047c3ba4') in 0.043771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.466559 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cot_01.prefab
+  artifactKey: Guid(d53c3f4e7348a244a9a56cec84a5e8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Cot_01.prefab using Guid(d53c3f4e7348a244a9a56cec84a5e8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25917ff1523da6b55a4661b27dd2ed1') in 0.037147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Curtain_01_Closed_01.prefab
+  artifactKey: Guid(a9cd0416728df134e94380f59edcafaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Curtain_01_Closed_01.prefab using Guid(a9cd0416728df134e94380f59edcafaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19264b7b8df75e13a91d7de49c361fe6') in 0.042056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Desk_01.prefab
+  artifactKey: Guid(71366473fa538b04c87fb42f4ff709e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Desk_01.prefab using Guid(71366473fa538b04c87fb42f4ff709e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f96cd553e15f813e9123f81d55ed5f4') in 0.048211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Curtain_01_Cracked_01.prefab
+  artifactKey: Guid(e633ff505391ce642bf382716e4d28ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Curtain_01_Cracked_01.prefab using Guid(e633ff505391ce642bf382716e4d28ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2417e0070eef72903147e6d9160862e6') in 0.041992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Couch_02.prefab
+  artifactKey: Guid(b1aec68ab9e262f449cea73f2f626270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Couch_02.prefab using Guid(b1aec68ab9e262f449cea73f2f626270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5078dc10f32723fe0306dc8f2901e5b6') in 0.049982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Decal_Floor_Large.prefab
+  artifactKey: Guid(91855ca15a17acf4c9dbcef7bcf4374a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Decal_Floor_Large.prefab using Guid(91855ca15a17acf4c9dbcef7bcf4374a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392959b1e920db8fdd9c90d7f9df3420') in 0.054359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Curtain_02_Closed_01.prefab
+  artifactKey: Guid(442b650170169db46b78603e17f7b92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Curtain_02_Closed_01.prefab using Guid(442b650170169db46b78603e17f7b92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdc8e586be88672068a24a69ab85783') in 0.045359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.263980 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Desk_02.prefab
+  artifactKey: Guid(e9d284ba971c8d341ab2703798862a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Desk_02.prefab using Guid(e9d284ba971c8d341ab2703798862a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b009e9c18b5a442ca1257bb298f7a19c') in 0.049948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doily_03.prefab
+  artifactKey: Guid(b799577f023574c409ebb31a33efa10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doily_03.prefab using Guid(b799577f023574c409ebb31a33efa10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d58e54692ee5e881ffdecb7ecd03d8') in 0.104828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doily_02.prefab
+  artifactKey: Guid(0b398c3e281e65943a339b74179fe491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doily_02.prefab using Guid(0b398c3e281e65943a339b74179fe491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dc7faa502fd0221422fe28ea7cf96b') in 0.060701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doily_01.prefab
+  artifactKey: Guid(3b24a5a98a0c30c4f975cee85cde6188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doily_01.prefab using Guid(3b24a5a98a0c30c4f975cee85cde6188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b628ef4a0afb254f641febeaa76aaa') in 0.058604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.139351 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doily_04.prefab
+  artifactKey: Guid(4122a30ddce69f6409cdffd06ad44ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doily_04.prefab using Guid(4122a30ddce69f6409cdffd06ad44ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dafb57e21d74608476792d2df0c3171') in 0.049557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Door_Mat_03.prefab
+  artifactKey: Guid(92820ea4678691c4daa0b3a72b420e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Door_Mat_03.prefab using Guid(92820ea4678691c4daa0b3a72b420e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5a5397b9ab9d5c994c9d9c75bb5a0a') in 0.066981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Door_Mat_04.prefab
+  artifactKey: Guid(33d20a2666ab76442927c0130be6f0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Door_Mat_04.prefab using Guid(33d20a2666ab76442927c0130be6f0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf3f49412bb733d879320c0d8e46971') in 0.050350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doorbell_01.prefab
+  artifactKey: Guid(21050cbfbbb8f074db76db88d8c088e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Doorbell_01.prefab using Guid(21050cbfbbb8f074db76db88d8c088e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2b295e46aeae7904dd48763b4392a0') in 0.035257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Dresser_03.prefab
+  artifactKey: Guid(b07aa88ef3b618249be4976d32447928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Dresser_03.prefab using Guid(b07aa88ef3b618249be4976d32447928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbed0133d59c28ab32181bb744e99c4c') in 0.052302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Exorcist_Bottle_02.prefab
+  artifactKey: Guid(e52caed07a084984382fcc9a7b69d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Exorcist_Bottle_02.prefab using Guid(e52caed07a084984382fcc9a7b69d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91473b810dd3aeea350ddd869c91a298') in 0.039821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Dresser_01.prefab
+  artifactKey: Guid(cb6e71db824bf12488a71beb439ad71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Dresser_01.prefab using Guid(cb6e71db824bf12488a71beb439ad71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ebd2d0eea188a3b4dca1b21ed94483') in 0.048380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Exorcist_Bottle_03.prefab
+  artifactKey: Guid(e253870a65db39942a4da75fd27f5c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Exorcist_Bottle_03.prefab using Guid(e253870a65db39942a4da75fd27f5c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a40b9bc1dcb41f410fd15c6d140b1f') in 0.040847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Exorcist_Case_01.prefab
+  artifactKey: Guid(0e50b8a10d325464fb74d5f47282af3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Exorcist_Case_01.prefab using Guid(0e50b8a10d325464fb74d5f47282af3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fbd44468d9cb1ba45900a626853818') in 0.052092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.172523 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Exorcist_Cross_03.prefab
+  artifactKey: Guid(8e36462ab44386e4b9dca1f693dff0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Exorcist_Cross_03.prefab using Guid(8e36462ab44386e4b9dca1f693dff0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64743d78b538b0110da4c274849391a6') in 0.046078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Fork_01.prefab
+  artifactKey: Guid(efd09df1f6868fb459b73236f12feb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Fork_01.prefab using Guid(efd09df1f6868fb459b73236f12feb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13356b83d35847b06c4c06b494927f4') in 0.052163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.522851 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Furnace_01.prefab
+  artifactKey: Guid(9fef6eed52b791d4cabb5f12779ff278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Furnace_01.prefab using Guid(9fef6eed52b791d4cabb5f12779ff278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8606a862beff47047b50694787a467') in 0.048620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Guts_Bucket_01.prefab
+  artifactKey: Guid(add3e404f640e7a4db17c9eec8619c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Guts_Bucket_01.prefab using Guid(add3e404f640e7a4db17c9eec8619c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9e450e4f5c9f45ec6b564585441279') in 0.057062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Guts_Bucket_02.prefab
+  artifactKey: Guid(bfc3fa3be38cf854085479ae705f1657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Guts_Bucket_02.prefab using Guid(bfc3fa3be38cf854085479ae705f1657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bf421eba6581283ef52bff160109e6') in 0.033413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005390 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Hook_01.prefab
+  artifactKey: Guid(496b9c54f7594334eb9723eec9c91ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Hook_01.prefab using Guid(496b9c54f7594334eb9723eec9c91ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc02d5f6c3846a8ffdb8c4aa0ac7576d') in 0.044992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Kettle_01.prefab
+  artifactKey: Guid(a9b96f057652ce24f8536914ba20830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Kettle_01.prefab using Guid(a9b96f057652ce24f8536914ba20830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86fbabe1f28cc45df3a07f59601442b') in 0.044775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.517280 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Key_04.prefab
+  artifactKey: Guid(56d190a5250bea04ab643dd056b638f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Key_04.prefab using Guid(56d190a5250bea04ab643dd056b638f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f13666a76c9f2779ae701692d9b9c8') in 0.049498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Kitchen_Pan_02.prefab
+  artifactKey: Guid(e86eaf88d2cfe914db472e93950ed7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Kitchen_Pan_02.prefab using Guid(e86eaf88d2cfe914db472e93950ed7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d4779e57e19e76deecbad36c59f968') in 0.050276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Knife_02.prefab
+  artifactKey: Guid(0dc1733bd6b3cbf4b97170a2e5861808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Knife_02.prefab using Guid(0dc1733bd6b3cbf4b97170a2e5861808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716d030882538de5568cf9a94038be01') in 0.047089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Ladder_01.prefab
+  artifactKey: Guid(5951f41415fed9e47a059e7c539ebbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Ladder_01.prefab using Guid(5951f41415fed9e47a059e7c539ebbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc21b5794453d214606612c2f9c1998d') in 0.064555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Kitchen_Pan_Rack_02.prefab
+  artifactKey: Guid(8ef13557608ab5f4eb63e05fb5da360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Kitchen_Pan_Rack_02.prefab using Guid(8ef13557608ab5f4eb63e05fb5da360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e042c35063565a10c8867f3dae8e8c') in 0.034826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Light_Chandelier_02.prefab
+  artifactKey: Guid(d7183c1f42bda7f45b2c525db3a6235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Light_Chandelier_02.prefab using Guid(d7183c1f42bda7f45b2c525db3a6235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fe9b8e4754e631005537a0dee342bb') in 0.053984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Keyhole_03.prefab
+  artifactKey: Guid(54ad284a0318b824fac9eab6dd1f1ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Keyhole_03.prefab using Guid(54ad284a0318b824fac9eab6dd1f1ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8f94ac2463b59b4d2f36ad8e9644a5') in 0.049606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Light_Switch_02.prefab
+  artifactKey: Guid(8f32578f828107b4396f7144f4a62a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Light_Switch_02.prefab using Guid(8f32578f828107b4396f7144f4a62a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d00f6382593013e6cab048d26ef17e') in 0.044195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Kitchen_Pan_Rack_Chain_01.prefab
+  artifactKey: Guid(9a07531a1d378994d8d5d2599ef5015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Kitchen_Pan_Rack_Chain_01.prefab using Guid(9a07531a1d378994d8d5d2599ef5015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0075b5543223a5c7a460bf636466d573') in 0.036171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.535047 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Light_Wall_02.prefab
+  artifactKey: Guid(2894cd28db04fd94ab4c6cda3463f892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Light_Wall_02.prefab using Guid(2894cd28db04fd94ab4c6cda3463f892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3072f34a8633a4efff0c7c150363896') in 0.047850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mangifying_Glass_01.prefab
+  artifactKey: Guid(42991ee09add5444da4a87b856c7277d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mangifying_Glass_01.prefab using Guid(42991ee09add5444da4a87b856c7277d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902450117c97d22ac7630f438fb7424b') in 0.044418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mask_01.prefab
+  artifactKey: Guid(56ae2c3d73f8ce447a2d217281f6cd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mask_01.prefab using Guid(56ae2c3d73f8ce447a2d217281f6cd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e701fcab9ca801b516a25073a3835b90') in 0.034249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019002 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mask_Count_01.prefab
+  artifactKey: Guid(9df530a2077e43445b2d97afc13b5be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mask_Count_01.prefab using Guid(9df530a2077e43445b2d97afc13b5be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051dbf94390b96209b0896ce30fedcf1') in 0.044013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mirror_03.prefab
+  artifactKey: Guid(74b7cd55fe70712439204abff11da4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mirror_03.prefab using Guid(74b7cd55fe70712439204abff11da4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ae9812428519db755a87d065203013') in 0.043559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025066 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mirror_05.prefab
+  artifactKey: Guid(58b043499ce2f4248bc645ccf4b6fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Mirror_05.prefab using Guid(58b043499ce2f4248bc645ccf4b6fb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbde50a81d3af293225f6b4b96303d83') in 0.038250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Ottoman_01.prefab
+  artifactKey: Guid(9572667a803a4904aa59317625c7b04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Ottoman_01.prefab using Guid(9572667a803a4904aa59317625c7b04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c390705af485178b3760f88beab5c3') in 0.045000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Padlock_01.prefab
+  artifactKey: Guid(0a4a2c332cf519f44abf5618f40e1a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Padlock_01.prefab using Guid(0a4a2c332cf519f44abf5618f40e1a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9764c5222fd7c6613a8d2c613c24603d') in 0.038647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.381087 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Page_02.prefab
+  artifactKey: Guid(08f818108a09edf4f8ddc4f5bffcaab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Page_02.prefab using Guid(08f818108a09edf4f8ddc4f5bffcaab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b84328f125147b9515f435debe1e255') in 0.036845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Page_07.prefab
+  artifactKey: Guid(e5cb88a34644234499df82ed261e8fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Page_07.prefab using Guid(e5cb88a34644234499df82ed261e8fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0418b0c17bf423ff29f1ab35e32f80e1') in 0.036196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Painting_05.prefab
+  artifactKey: Guid(d6add9e3db80ac045b11bf2d60bc1fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Painting_05.prefab using Guid(d6add9e3db80ac045b11bf2d60bc1fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6195256e7393b8a86e4408e85a34d9') in 0.060315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_PaintingFrame_01.prefab
+  artifactKey: Guid(622e6e6df7a975b47a1899a59f275104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_PaintingFrame_01.prefab using Guid(622e6e6df7a975b47a1899a59f275104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ad3a00dac709f9c4fac4a2074ca794') in 0.042394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_PaintingFrame_04.prefab
+  artifactKey: Guid(811eb50e3a0b29144aaca059605f5842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_PaintingFrame_04.prefab using Guid(811eb50e3a0b29144aaca059605f5842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96165b76267c2512f1b9aec4296a9023') in 0.048833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Papers_01.prefab
+  artifactKey: Guid(4628fd9f4e7da494aa8eed15127c0032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Papers_01.prefab using Guid(4628fd9f4e7da494aa8eed15127c0032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fa19437b56f3688402baecbf339f81') in 0.033228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Painting_02.prefab
+  artifactKey: Guid(2deecd79782a7b74aaacfa133313a100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Painting_02.prefab using Guid(2deecd79782a7b74aaacfa133313a100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231ff21f986c388d12f84c89029a517f') in 0.063437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.808533 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Papers_03.prefab
+  artifactKey: Guid(c21525354aa9e81479e93e31d1b95ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Papers_03.prefab using Guid(c21525354aa9e81479e93e31d1b95ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6ff1f2b2d87fb2d1802e1924f26af9') in 0.046263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Phone_Rotary_01.prefab
+  artifactKey: Guid(647e0fdeda71c554c9698615b11687d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Phone_Rotary_01.prefab using Guid(647e0fdeda71c554c9698615b11687d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a99d36ac0fec21c0b6d05403dad0e8') in 0.109340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.241485 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Picture_Frame_04.prefab
+  artifactKey: Guid(a1996e37beeacc141a0c815a9147ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Picture_Frame_04.prefab using Guid(a1996e37beeacc141a0c815a9147ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd24d0550f2f979e194829fbff7791a') in 0.060469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Plant_Stand_01_Plant_01.prefab
+  artifactKey: Guid(9599e888312dd094b95db54ab39ad224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Plant_Stand_01_Plant_01.prefab using Guid(9599e888312dd094b95db54ab39ad224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b258238c70cc91f15a4652d2d857a658') in 0.050545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Plant_Pot_02.prefab
+  artifactKey: Guid(ef70c44c4d3e4934a98e1da4ea433007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Plant_Pot_02.prefab using Guid(ef70c44c4d3e4934a98e1da4ea433007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ce5ccecada47ec9e179e6a66629808') in 0.042854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Plant_Stand_01_Plant_02.prefab
+  artifactKey: Guid(698daf3ac7ca263428c4f5645a1b233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Plant_Stand_01_Plant_02.prefab using Guid(698daf3ac7ca263428c4f5645a1b233e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd062633339f14b97fe28ac9d2f573114') in 0.051042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Planter_01_Plant_01.prefab
+  artifactKey: Guid(934e626fb979b98499dbd6aa1f2c82a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Planter_01_Plant_01.prefab using Guid(934e626fb979b98499dbd6aa1f2c82a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c50217e97f05414ec308211b04fd18') in 0.038386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.356336 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Planter_02_Plant_01.prefab
+  artifactKey: Guid(f725accd16e37af49953d28421538531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Planter_02_Plant_01.prefab using Guid(f725accd16e37af49953d28421538531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f513b6aa81bb5f6f703c9f227d5ba09') in 0.043641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Planter_03_Plant_01.prefab
+  artifactKey: Guid(6355c86b5c40cc84a8f56fd12d879547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Planter_03_Plant_01.prefab using Guid(6355c86b5c40cc84a8f56fd12d879547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f72bc6022304fd7e609bbefa857829') in 0.053214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031744 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Plate_03.prefab
+  artifactKey: Guid(d7d3ce3172432504295aa091beb0e294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Plate_03.prefab using Guid(d7d3ce3172432504295aa091beb0e294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852f669e851cb7afa2933faf249617b1') in 0.040023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Pram_01.prefab
+  artifactKey: Guid(467284c7637b18c40bfdebc70567db48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Pram_01.prefab using Guid(467284c7637b18c40bfdebc70567db48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20dbc305dbba5522393dbe06b540c3fa') in 0.049528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Rug_03.prefab
+  artifactKey: Guid(b57babb159798b14bbc16e75596c4588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Rug_03.prefab using Guid(b57babb159798b14bbc16e75596c4588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ec404da4d8738ee1120c28b82d1f8f') in 0.035572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Radio_01.prefab
+  artifactKey: Guid(4bcec6fd2f4c70646a558cd4634f4b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Radio_01.prefab using Guid(4bcec6fd2f4c70646a558cd4634f4b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ecb7df27a785c06f522f391177e24b') in 0.046143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Power_Box_02.prefab
+  artifactKey: Guid(7e048b971564b4340956deae53f9a71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Power_Box_02.prefab using Guid(7e048b971564b4340956deae53f9a71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a6b1d4ce0ccd079be23d8095ed7e66') in 0.039394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.542027 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Rug_05.prefab
+  artifactKey: Guid(6d39cc6d5296f194a83512570f19893d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Rug_05.prefab using Guid(6d39cc6d5296f194a83512570f19893d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ea169c4e4667cecef508976dda7775') in 0.033063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Science_Bottle_01.prefab
+  artifactKey: Guid(e1f1c2fa63eba4547a9d4e84a78784f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Science_Bottle_01.prefab using Guid(e1f1c2fa63eba4547a9d4e84a78784f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ddd7b2034a86f5aadf3ba4b1a33621') in 0.057900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164818 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Science_Burner_01.prefab
+  artifactKey: Guid(17743d1be4f505944b22f30e8c319cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Science_Burner_01.prefab using Guid(17743d1be4f505944b22f30e8c319cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f64602967a751b75a5562d26344b27') in 0.044488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sewing_Machine_Table_01.prefab
+  artifactKey: Guid(8c81a275959665a488b410d32736b66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sewing_Machine_Table_01.prefab using Guid(8c81a275959665a488b410d32736b66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74a9d56d5b326c58123db00fc969715') in 0.045159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016070 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Shackle_01.prefab
+  artifactKey: Guid(2e5d92c2b72d5854aab12faf41a93955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Shackle_01.prefab using Guid(2e5d92c2b72d5854aab12faf41a93955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2249fdb496a7b1b188bb1a566fce6e57') in 0.043990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sheet_Cover_05.prefab
+  artifactKey: Guid(22a9a6b6f59df3b4fad13a8af02b1a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sheet_Cover_05.prefab using Guid(22a9a6b6f59df3b4fad13a8af02b1a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c7d5e3eac1029fe543d327af5c59dd') in 0.040216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.240672 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sheet_Cover_08.prefab
+  artifactKey: Guid(b88c591de36e2fb438e8743c287ea3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sheet_Cover_08.prefab using Guid(b88c591de36e2fb438e8743c287ea3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2531eff9171f0905cd4721330c217ec') in 0.040494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sheet_Rope_02.prefab
+  artifactKey: Guid(00cf34a434b4cb144a6432265f9aaec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sheet_Rope_02.prefab using Guid(00cf34a434b4cb144a6432265f9aaec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f380af32ce95a21aa49e84c76d4bef4') in 0.054988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036269 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Shower_01.prefab
+  artifactKey: Guid(b72477be99dfb024cbd66979e5514240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Shower_01.prefab using Guid(b72477be99dfb024cbd66979e5514240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb20d15f5ef6ed0d4c5ec91561f0b7f') in 0.047409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Side_Table_01.prefab
+  artifactKey: Guid(6dae1f904e77d704bbc2e76fd688ea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Side_Table_01.prefab using Guid(6dae1f904e77d704bbc2e76fd688ea2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114166db01dfbce7b98b8add64b62ae6') in 0.043937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.354279 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sink_01.prefab
+  artifactKey: Guid(23661de72a577bd449e91e7e481cc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Sink_01.prefab using Guid(23661de72a577bd449e91e7e481cc297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103eb54ac464e96c6c42fad48d59bb08') in 0.049081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Spinning_Wheel_01.prefab
+  artifactKey: Guid(db956b22a8f59ff4f98ca6e12ecd4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Spinning_Wheel_01.prefab using Guid(db956b22a8f59ff4f98ca6e12ecd4ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc5b1b21fd8565205015f44c16f38c0') in 0.057497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.779973 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Stool_01.prefab
+  artifactKey: Guid(c83b099cbb882734bb03b50c8eed0637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Stool_01.prefab using Guid(c83b099cbb882734bb03b50c8eed0637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ef3dd99f439d700c9d4a9b889e7a9e') in 0.049059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Stove_02.prefab
+  artifactKey: Guid(1a00b361fa2455a40aab6e855c62caba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Stove_02.prefab using Guid(1a00b361fa2455a40aab6e855c62caba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c2f142c6c83ae828e26496c85225e3') in 0.055402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.489526 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Table_01_Cloth_01.prefab
+  artifactKey: Guid(a3ec36ae0f2e95f419a54bf412d1fc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Table_01_Cloth_01.prefab using Guid(a3ec36ae0f2e95f419a54bf412d1fc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf0c58655aee217ca08cca0cb5b93b7') in 0.057937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Table_03.prefab
+  artifactKey: Guid(703456965e2b431448e7b9b105ab3efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Table_03.prefab using Guid(703456965e2b431448e7b9b105ab3efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118b6628cee7becb9dce93e3e4ff48a3') in 0.088728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Table_04.prefab
+  artifactKey: Guid(0de43461c89649b4bb06987b182dd1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Table_04.prefab using Guid(0de43461c89649b4bb06987b182dd1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713e2dd347fd8708ef348e09fc4bbfdb') in 0.062672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.128535 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Table_Side_03.prefab
+  artifactKey: Guid(6fd09014acdd65e49840f23ce56997b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Table_Side_03.prefab using Guid(6fd09014acdd65e49840f23ce56997b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4e46e3fab28e7f5b4a367de470424d') in 0.045034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Toaster_01.prefab
+  artifactKey: Guid(03e74d5f858136e4b8f7fb8621155446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Toaster_01.prefab using Guid(03e74d5f858136e4b8f7fb8621155446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bfed212006457766d2cd718843127c') in 0.056972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.643492 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Torch_02.prefab
+  artifactKey: Guid(df6abd41cb7baef46bb6921f0f0e5be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Torch_02.prefab using Guid(df6abd41cb7baef46bb6921f0f0e5be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c71ab17edbeb9c5e1844f602d0bdd7c') in 0.044264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Tripod_01.prefab
+  artifactKey: Guid(653ed19b75a60fc40aaeecb0185bc4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Tripod_01.prefab using Guid(653ed19b75a60fc40aaeecb0185bc4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deece5b2a8bd6191bdf35186f26ff0c9') in 0.040115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Washbasin_01.prefab
+  artifactKey: Guid(e61bc69199e8a3046b330dc6cfb044b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Washbasin_01.prefab using Guid(e61bc69199e8a3046b330dc6cfb044b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2bfa42f882cc7ecd3a73fe9f85b234') in 0.043029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Wardrobe_01.prefab
+  artifactKey: Guid(61ca5fdcd0beb864b98831b2b075ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Wardrobe_01.prefab using Guid(61ca5fdcd0beb864b98831b2b075ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76a40e294bc79a6c0b58e0273cc52e') in 0.042192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Wardrobe_02.prefab
+  artifactKey: Guid(66d28df6e3083644fafb637821a8f9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Prop_Wardrobe_02.prefab using Guid(66d28df6e3083644fafb637821a8f9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e35d0613bcdbb157328b6b841781b38') in 0.048998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Props/SM_Veh_Trike_01.prefab
+  artifactKey: Guid(579945ca7af630d429d1370a8453e3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Props/SM_Veh_Trike_01.prefab using Guid(579945ca7af630d429d1370a8453e3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cbd3cd32bb2bbfe62f03d2defd4f6f') in 0.040239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.856068 seconds.
+  path: Assets/PolygonHorrorMansion/Textures/Decals/Decals_Crack_Large_01.png
+  artifactKey: Guid(566aef0515ce279408416edde5c76cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Textures/Decals/Decals_Crack_Large_01.png using Guid(566aef0515ce279408416edde5c76cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b3097b0a473566a23e61474dab317a') in 0.112335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonHorrorMansion/Textures/Decals/Decals_Crack_Large_03.png
+  artifactKey: Guid(0525ef66f25f06440abeedc4a05cc80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Textures/Decals/Decals_Crack_Large_03.png using Guid(0525ef66f25f06440abeedc4a05cc80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4270ab8d5f2d84cd8025f85350d8c270') in 0.032580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonHorrorMansion/Textures/Decals/Decals_Crack_Medium_02.png
+  artifactKey: Guid(3afc8f78ee88d364283b289ce7f4858f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Textures/Decals/Decals_Crack_Medium_02.png using Guid(3afc8f78ee88d364283b289ce7f4858f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578224de1b4852f36543a9d71f244e7b') in 0.053465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonHorrorMansion/Models/SM_Bld_Roof_Cresting_01.fbx
+  artifactKey: Guid(41595c42f59e0ce4296aa06adf7626dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Models/SM_Bld_Roof_Cresting_01.fbx using Guid(41595c42f59e0ce4296aa06adf7626dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf88196eed9dda662af6dc53b7f9dc5') in 0.129509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonHorrorMansion/Models/SM_Bld_Roof_Cresting_01_Corner_01.fbx
+  artifactKey: Guid(9611cc5906b2a5745b19d4fb073e4526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Models/SM_Bld_Roof_Cresting_01_Corner_01.fbx using Guid(9611cc5906b2a5745b19d4fb073e4526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70447d9131e5097f7ad7e63da5cfb47d') in 0.032949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.315653 seconds.
+  path: Assets/PolygonHorrorMansion/Models/Convex/SM_Prop_Exorcist_Cross_01_Convex.asset
+  artifactKey: Guid(6915a2996bdd3af479695471d6978bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Models/Convex/SM_Prop_Exorcist_Cross_01_Convex.asset using Guid(6915a2996bdd3af479695471d6978bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db89ddf74f3d201c00a9e2efdf0b83f') in 0.029638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonHorrorMansion/Models/Convex/SM_Prop_Exorcist_Cross_03_Convex.asset
+  artifactKey: Guid(acba0f3f060c089418e020ed1fe0dd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Models/Convex/SM_Prop_Exorcist_Cross_03_Convex.asset using Guid(acba0f3f060c089418e020ed1fe0dd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a2eeefab930b1f011e397c6e91aa3a') in 0.020516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.626608 seconds.
+  path: Assets/PolygonHorrorMansion/Models/SM_Env_Gravel_Round_01.fbx
+  artifactKey: Guid(6865a3514705c984591b3b2f04a09641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Models/SM_Env_Gravel_Round_01.fbx using Guid(6865a3514705c984591b3b2f04a09641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19109213623dfe430221da381993672') in 0.035704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonHorrorMansion/Models/SM_Env_Road_Gravel_Loop_Connect_02.fbx
+  artifactKey: Guid(f95bb87cca6d9b0428b9cfbfdbd5a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Models/SM_Env_Road_Gravel_Loop_Connect_02.fbx using Guid(f95bb87cca6d9b0428b9cfbfdbd5a5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8499bec33ae8bd847af77c9c69c7729') in 0.057866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonHorrorMansion/Models/SM_Env_Road_Gravel_Loop_Connect_01.fbx
+  artifactKey: Guid(5db0c167b60f02e42843d7b2d4dc3258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Models/SM_Env_Road_Gravel_Loop_Connect_01.fbx using Guid(5db0c167b60f02e42843d7b2d4dc3258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13579a5053a63cdd18b5463568aa9de4') in 0.033699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.324938 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Weapons/SM_Wep_Hatchet_01.prefab
+  artifactKey: Guid(d7cb9d6831b09524b86a85c42e7426cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Weapons/SM_Wep_Hatchet_01.prefab using Guid(d7cb9d6831b09524b86a85c42e7426cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244ffc2147900381a5b6052e8040285f') in 0.064588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Weapons/SM_Wep_Screw_Driver_01.prefab
+  artifactKey: Guid(9a75e8fa96dda0f47902efcd937e2313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Weapons/SM_Wep_Screw_Driver_01.prefab using Guid(9a75e8fa96dda0f47902efcd937e2313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3202c02e685826ee9ad60993ddd83de') in 0.073691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonHorrorMansion/Prefabs/Weapons/SM_Wep_Spanner_01.prefab
+  artifactKey: Guid(d93fd507528f8784e91a39beb3bc982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorMansion/Prefabs/Weapons/SM_Wep_Spanner_01.prefab using Guid(d93fd507528f8784e91a39beb3bc982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74893d4beb6d03dad8524d2da9f95d7b') in 0.068259 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
